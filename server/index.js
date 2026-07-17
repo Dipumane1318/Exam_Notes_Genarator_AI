@@ -14,10 +14,7 @@ import { stripeWebhook } from "./controllers/credits.controller.js";
 const app = express()
 
 app.use(cors({
-  origin: [
-    "http://localhost:5174",
-    "http://localhost:5173",
-  ],
+  origin:"https://exam-notes-genarator-aiclient.onrender.com",
   credentials: true
 }));
 
