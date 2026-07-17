@@ -17,6 +17,7 @@ app.use(cors({
   origin: [
     "http://localhost:5174",
     "http://localhost:5173",
+    "https://exam-notes-genarator-aiclient.onrender.com"
   ],
   credentials: true
 }));
