@@ -10,7 +10,7 @@ import Notes from "./pages/Notes";
 import Pricing from "./pages/Pricing";
 import PaymentSuccess from "./pages/PaymentSuccess";
 import PaymentFailed from "./pages/PaymentFailed";
-import { serverUrl } from './config';
+export const serverUrl = "https://exam-notes-genarator-aiserver.onrender.com"
 
 function App() {
   const dispatch=useDispatch()
