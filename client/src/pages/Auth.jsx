@@ -87,7 +87,7 @@ function Auth() {
 
           <p className="mt-4 text-sm text-gray-500">
             {" "}
-            Start with 50 free credits • Upgrade anytime for more credits •
+            Start with 100 free credits • Upgrade anytime for more credits •
             Instant access
           </p>
         </motion.div>
