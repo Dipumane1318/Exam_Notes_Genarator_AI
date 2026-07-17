@@ -42,6 +42,7 @@ export const downloadPdf = async (result) => {
         link.click();
         window.URL.revokeObjectURL(url);
     } catch (error) {
-        throw new Error("PDF download failed");
+        console.error(error);
+        throw new Error("PDF download failed", { cause: error });
     }
 } 
