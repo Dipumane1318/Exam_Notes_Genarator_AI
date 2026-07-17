@@ -2,6 +2,7 @@ import axios from "axios"
 import { serverUrl } from "../config"
 import { setUserData } from "../redux/userSlice"
 
+
 export const getCurrentUser = async (dispatch) => {
     try {
         const result = await axios.get(serverUrl + "/api/user/currentuser", {
