@@ -1,1 +1,1 @@
-export const serverUrl = "http://localhost:8000";
+export const serverUrl = "https://exam-notes-genarator-aiserver.onrender.com";
